@@ -1,0 +1,102 @@
+@import "dav-style.css";
+
+/* ==========
+  ! FUENTES ¡ 
+========== */
+@font-face {
+  font-family: "zurchlc";
+  src: url("../fonts/zurchlc/zurchlc.eot");
+  src: url("../fonts/zurchlc/zurchlc.eot#?iefix") format("embedded-opentype"),
+    url("../fonts/zurchlc/zurchlc.ttf") format("truetype"),
+    url("../fonts/zurchlc/zurchlc.svg") format("svg"),
+    url("../fonts/zurchlc/zurchlc.woff") format("woff");
+}
+
+/* ====================
+  ! CUSTOM PROPETIES ¡
+==================== */
+:root {
+  /* ** General ** */
+  --font-family: "zurchlc";
+}
+
+/* ================
+  ! STYLE - GENERAL ¡
+================ */
+body {
+  font-family: var(--font-family);
+  font-size: var(--step-1);
+}
+
+/* ! --- Container - Header --- */
+/* ? ---- Header - Logo ---- */
+.header-logo > img {
+  max-width: calc(var(--step-5) * 6);
+}
+.box-company {
+  background-color: var(--cl-black);
+}
+.box-company > img {
+  max-width: calc(var(--step-2) * 6);
+}
+
+.dav-botton {
+  right: -80vw;
+  bottom: 1rem;
+  position: relative;
+}
+
+/* ! --- Container - Footer --- */
+.footer-code > img {
+  max-width: calc(var(--step-5) * 1.1);
+}
+
+/* ================
+  ! STYLE - INDEX ¡
+================ */
+/* ! --- Container - Proyect --- */
+.project-title {
+  color: var(--cl-red);
+}
+.proyect-link {
+  padding: 1rem;
+}
+
+/* ====================
+  ! STYLE - PROYECTOS ¡
+==================== */
+/* ! --- Container - Hero --- */
+.container-hero {
+  min-height: 40vh;
+}
+.hero-andarrios {
+  background: url(../img/Andarrios/BanerAndarrios.png) center no-repeat;
+}
+.hero-fortuna {
+  background: url(../img/LaFortuna/BanerLaFortuna.png) center no-repeat;
+}
+.hero-mangos {
+  background: url(../img/LosMangos/BanerMangos.png) center no-repeat;
+}
+.hero-trigal {
+  background: url(../img/Trigal/BanerTrigal.png) center no-repeat;
+}
+.hero-portachuelo {
+  background: url(../img/BanerPortachuelo.png) center no-repeat;
+}
+.hero-size {
+  background-size: 100% 100%;
+}
+
+/* ! --- Container - Card --- */
+.card-content {
+  padding: 1rem;
+}
+.content-title {
+  color: var(--cl-red);
+}
+
+/* ! --- Container - Galeria --- */
+.container-galeria > img {
+  max-width: calc(var(--step-5) * 3.5);
+}
